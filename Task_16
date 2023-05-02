@@ -1,0 +1,4 @@
+from random import randint
+a = [randint(1, 9) for i in range(int(input('Enter the size of the array: ')))]
+print(a)
+print('How many times does the desired number occur: ', a.count(int(input('Enter the desired number: '))))
